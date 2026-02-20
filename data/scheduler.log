@@ -1,0 +1,38 @@
+[2026-02-19 18:24:46] ============================================================
+[2026-02-19 18:24:46] DAILY PAPER TRADER SCHEDULER
+[2026-02-19 18:24:46] ============================================================
+[2026-02-19 18:24:46] Starting paper trader run...
+[2026-02-19 18:25:07] Output:
+
+============================================================
+PAPER TRADING BOT
+No real money - safe testing mode
+============================================================
+
+============================================================
+PAPER TRADING SCAN
+============================================================
+Found 5 markets
+
+💾 Logged 2 predictions
+
+============================================================
+PAPER TRADES: 2
+============================================================
+
+1. Will Trump deport less than 250,000?...
+   📊 YES @ 62% (market: 50%)
+   💰 Paper: $44 | Edge: 12%
+
+2. Will Trump deport 750,000-1,000,000 people?...
+   📊 YES @ 62% (market: 50%)
+   💰 Paper: $44 | Edge: 12%
+
+✅ Paper trades logged to: /home/clawd/polymarket-bot/data/paper_trades.sqlite
+Run daily to track predictions vs outcomes
+
+[2026-02-19 18:25:07] Total predictions: 3
+[2026-02-19 18:25:07] No resolved yet
+[2026-02-19 18:25:07] Run complete. Set up cron for daily execution:
+[2026-02-19 18:25:07]   crontab -e
+[2026-02-19 18:25:07]   0 9 * * * cd /home/clawd/polymarket-bot && python3 scheduler.py

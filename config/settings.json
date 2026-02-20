@@ -1,0 +1,23 @@
+{
+  "bot_name": "Wolf Polymarket",
+  "version": "1.0.0",
+  "max_trade_size": 50,
+  "daily_loss_limit": -3,
+  "min_confidence": 0.65,
+  "max_open_positions": 5,
+  "markets_to_track": [
+    "crypto",
+    "sports",
+    "politics",
+    "technology",
+    "finance"
+  ],
+  "prediction_model": "web_search",
+  "auto_execute": false,
+  "risk_per_trade": 0.02,
+  "scan_interval": 300,
+  "notifications": {
+    "telegram": true,
+    "email": false
+  }
+}
